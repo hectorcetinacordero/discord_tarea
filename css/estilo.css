@@ -122,3 +122,10 @@ main {
   gap: 10px;
   align-items: center;
 }
+.contenedor_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}

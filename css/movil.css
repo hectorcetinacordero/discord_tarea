@@ -25,3 +25,11 @@
     max-width: 100%;
   }
 }
+@media (max-width: 480px) {
+  .contenedor_btn {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+  }
+}
