@@ -1,0 +1,124 @@
+/* tipografias */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sigmar&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* variables */
+:root {
+  --tipografia_gruesa: "Sigmar", serif;
+  --tipografia_delgada: "Lato", serif;
+  --negro: #23272a;
+  --morado: #5765f2;
+  --gris: #f6f6f6;
+}
+body {
+  font-family: var(--tipografia_delgada);
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+html {
+  scroll-behavior: smooth;
+}
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+  /* border: 1px red solid; */
+}
+.margen {
+  padding: 15px;
+}
+header {
+  background-color: var(--negro);
+  color: white;
+}
+.contenedor_cabecera {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+}
+.contenedor_cabecera_logo {
+  width: 125px;
+}
+.contenedor_cabecera_logo img {
+  width: 100%;
+  display: block;
+}
+.menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.menu ul li a {
+  padding: 10px 30px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+}
+.btn_blanco {
+  padding: 10px 25px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 40px;
+  display: inline-block;
+}
+.contenedor_slide {
+  background-color: var(--negro);
+  color: white;
+}
+h1 {
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: var(--tipografia_gruesa);
+}
+.btn_morado {
+  background-color: var(--morado);
+  color: white;
+  border-radius: 40px;
+  padding: 10px 30px;
+  display: inline-block;
+  text-decoration: none;
+}
+.contenedor_slide span {
+  padding-left: 20px;
+}
+main {
+  max-width: 550px;
+}
+.contenedor_slide_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contenedor_slide_info figure {
+  max-width: 550px;
+}
+.contenedor_slide_info figure img {
+  width: 100%;
+  display: block;
+}
+.icono_menu {
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+  display: none;
+}
+.contenedor_login {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}

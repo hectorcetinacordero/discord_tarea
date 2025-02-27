@@ -1,0 +1,27 @@
+@media (max-width: 950px) {
+  .menu {
+    display: none;
+  }
+  .icono_menu {
+    display: block;
+  }
+}
+@media (max-width: 900px) {
+  main {
+    max-width: 450px;
+  }
+}
+@media (max-width: 850px) {
+  .contenedor_slide_info {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+  }
+  main {
+    max-width: 100%;
+  }
+  .contenedor_slide_info figure {
+    max-width: 100%;
+  }
+}
